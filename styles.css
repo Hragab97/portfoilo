@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+
+
+}
+
+html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    box-sizing: border-box;
+    -webkit-text-size-adjust: 100%;
+}
+
+h5 {
+    text-align: left;
+}
+
+body {
+    text-align: center;
+        margin: 0 #24252a;
+        color: #fff;
+        font-family: '__Roboto_2d86fc',Helvetica,Arial,sans-serif,'__Roboto_Fallback_2d86fc';
+        font-weight: 400;
+        font-size: 1rem;
+        line-height: 1.5;
+        background-color: #24252a;
+    }
+}
+
+li, a {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #edf0edf1;
+    text-decoration: none;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
+}
+
+.nav-list {
+    font-size: 30px;
+    text-align: right;
+    list-style: none;
+    display: inline-block;
+    justify-content: flex-end;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: var(--main-red);
+}
+
+.nav-list li {
+
+    display: inline-block;
+    padding: 0px, 20px;
+
+}
+
+.nav-list li a {
+
+    transition: all 0.3s ease 0s;
+
+}
+
+.nav-list li a:hover {
+  color: #0088a9 ;
+}
+
+button {
+    padding: 9px 25px;
+    background-color: rgba(0,136,169,1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all,0.3s,ease,0s;
+}
+
+button:hover {
+    background-color: rgba(0,136,169,0.8);
+}
+br {
+    height: 500px;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h5 {
+    font-size: 130px;
+}
+
+hr {
+    text-align: left;
+    background-color: aqua;
+    height: 5px;
+    border: none;
+
+}
+
+form {
+    text-align: center;
+    align-items: center;
+    display: block;
+    margin-top: 0em;
+    width: 100%;
+    background-color: aqua;
+}
+
+.project {
+    background-color: rgb(23, 163, 171);
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 50px;
+    border-width: 10%;
+    box-shadow: 0 4px 8px rgba(23, 163, 171, 0.791);
+    padding-left: 500px;
+    padding-right: 500px;
+}
+
+textarea {
+    color: black;
+}
